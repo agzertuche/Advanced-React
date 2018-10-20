@@ -7,7 +7,7 @@ const theme = {
   red: '#FF0000',
   black: '#393939',
   grey: '#3A3A3A',
-  lightGrey: '#E1E1E1',
+  lightgrey: '#E1E1E1',
   offWhite: '#EDEDED',
   maxWidth: '1000px',
   bs: '0 12px 24px 0 rgba(0, 0, 0, 0.09)',
@@ -25,12 +25,12 @@ const Inner = styled.div`
 `;
 
 injectGlobal`
-@font-face {
-  font-family: 'radnika_next';
-  src: url('/static/radnikanext-medium-webfont.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
+  @font-face {
+    font-family: 'radnika_next';
+    src: url('/static/radnikanext-medium-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
   html {
     box-sizing: border-box;
     font-size: 10px;
