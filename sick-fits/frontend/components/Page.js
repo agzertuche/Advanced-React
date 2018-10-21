@@ -49,6 +49,9 @@ injectGlobal`
     text-decoration: none;
     color: ${theme.black};
   }
+  Input, textarea, select, button {
+    font-family: 'radnika_next';
+  }
 `;
 
 class Page extends Component {

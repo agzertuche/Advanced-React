@@ -1,3 +1,3 @@
-const Home = props => <div>This is the index page</div>;
+import ShopPage from './shop';
 
-export default Home;
+export default ShopPage;
