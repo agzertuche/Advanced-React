@@ -14,7 +14,9 @@ const DELETE_ITEM_MUTATION = gql`
 class DeleteItem extends Component {
   handleDelete = deleteItemMutation => {
     if (window.confirm('Are you sure??')) {
-      deleteItemMutation();
+      deleteItemMutation().catch(err => {
+        alert(err.message);
+      });
     }
   };
 
